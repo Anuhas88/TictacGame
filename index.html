@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1 class="game-title">Tic-Tac-Toe</h1>
+
+        <div class="game-status">
+            <p id="status-text">You Turn</p>
+        </div>
+
+        <!-- 3x3 game board -->
+         <div class="game-board" id="gameBoard">
+            <!-- Grid cells will be created dynamically -->
+         </div>
+         <div class="game-controls">
+            <button id="reset-button" class="reset-button">New Game</button>
+         </div>
+
+         <div class="score-board">
+            <div class="score-item">
+                <span>You (X)</span>
+                <span id="playerScore">0</span>
+            </div>
+            <div class="score-item">
+                <span>Computer (O)</span>
+                <span id="computerScore">0</span>
+            </div>
+            <div class="score-item">
+                <span>Draw</span>
+                <span id="drawScore">0</span>
+            </div>
+         </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
